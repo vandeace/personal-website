@@ -24,7 +24,9 @@ export const TimelineLayout = ({ items }: TimelineLayoutProps) => {
         <TimelineItem>
           {index + 1 === items.length ? null : <TimelineConnector />}
           <TimelineHeader>
-            <TimelineTime>{item.date}</TimelineTime>
+            <TimelineTime className="sm:hidden md:block">
+              {item.date}
+            </TimelineTime>
             <TimelineIcon />
             <TimelineTitle>{item.title}</TimelineTitle>
           </TimelineHeader>
