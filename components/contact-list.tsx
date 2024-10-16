@@ -37,7 +37,7 @@ const contacts: Contact[] = [
   {
     name: "Resume",
     className: "bg-black hover:bg-gray-800/90",
-    href: "https://drive.google.com/file/d/1jQENlZvsuc5qiAlNfPH0lJdp91lYbJ_5/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1Az-6eU7x7Jj0gce4Fu062B0-zL9CnG9N/view?usp=sharing",
     icon: faFileAlt,
   },
   {
